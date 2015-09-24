@@ -1,0 +1,115 @@
+body {
+    background-color: silver;
+}
+nav ul {
+    -webkit-font-smoothing:antialiased;
+    text-shadow:0 1px 0 #FFF;
+    background: #ddd;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+nav li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-width: 15%;
+    background: #ddd;
+    color: #444;
+    display: block;
+    font: bold 16px/50px sans-serif;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+nav li:hover {
+    background: #ccc;
+}
+nav .dropdown:after {
+    content: "\25ba";
+}
+nav .dropdown:hover:after{
+    content:'\25bc'
+}
+nav li ul {
+    float: left;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+nav li:hover ul {
+    opacity: 1;
+    top: 50px;
+    visibility: visible;
+}
+nav li ul li {
+    float: none;
+    width: 100%;
+}
+nav {
+    position: auto;
+    width:100%;
+        }
+.divche {
+    margin-top: 40px;
+    background-color: grey;
+    text-align: center;
+}
+    #newPl2{
+
+    }
+        input {
+            width :150px;
+            height : 30px;
+            margin: 10px 10px;
+            font-size: 16px;
+            border-radius: 6px;
+        }
+    #calendar2{
+        display: block;
+    }
+        #calendar2 .calendar{
+            display: inline-block;
+            float: left;
+            padding: 5px;
+            height: 230px;
+            margin: 10px;
+            border: 3px solid #8AC007; 
+        }
+
+             tr, td {
+                color: #fff;
+                border: 1px solid #eee;
+                padding: 8px 15px;
+                border-collapse: collapse;
+              }
+            tr {
+                background: #00CC00;
+                color: black;
+                font-size: 12px;
+            }
+            caption{
+                padding : 0px;
+                font-size: 28px;
+            }
+#encounter{
+   float: left; 
+}
+    #encounter input{
+        width:100px;
+    }
