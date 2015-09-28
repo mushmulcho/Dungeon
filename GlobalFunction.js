@@ -30,9 +30,10 @@ $("ul").append("<li class='navButtons' id='reputation'>Reputation</li>");
 $("ul").append("<li class='navButtons' id='calendar'>Calendar</li>");
 $("ul").append("<li class='navButtons' id='cr'>Monster Chalinge</li>");
 $("ul").append("<li class='navButtons' id='newPl'>Add/Delete New Player</li>");
+$("ul").append("<li class='navButtons' id='sheet'>Character Sheet</li>");
 console.log($("li").length)
 //creating opne/close windows for navigation bar buttons
-for(var i =0;i<5;i++){
+for(var i =0;i<6;i++){
 	var id = $("li").eq(i).attr("id") + 2;
 	$("body").append("<div style='display:none' class='divche' id="+id+"></div>");
 }
@@ -43,7 +44,7 @@ $(".navButtons").click(function(){
 	$("#"+id+"").fadeIn("slow");
 });
 function removeAllDiv(){
-	for (var i = 0; i < 5; i++) {
+	for (var i = 0; i < 6; i++) {
 		var id = $("li").eq(i).attr("id") +2;
 		$("#"+id+"").text("");
 	}
