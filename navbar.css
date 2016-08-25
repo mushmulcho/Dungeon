@@ -113,4 +113,15 @@ nav {
     #encounter input{
         width:100px;
     }
-    
+.fullHouse{
+    margin-top: 40px;
+    background-color: grey;
+    text-align: center;
+}
+#gold{
+    color: gold;
+}
+table{
+    float: left;
+    margin:10px;
+}
